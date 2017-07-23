@@ -42,3 +42,4 @@ Total RAM memory (data + bss + heap + stack): 53296 bytes
 Total Flash memory (text + data + misc): 87985 bytes
 
 Image: ./BUILD/LEAPRO2/GCC_ARM/BLE_GPS.hex
+done
