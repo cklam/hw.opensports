@@ -1,0 +1,1 @@
+/home/human/mbed-os-example-ble/BLE_LED/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5/TARGET_MCU_NRF52832/TARGET_LEAPRO2/PinNames.h

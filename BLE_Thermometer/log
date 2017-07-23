@@ -1,0 +1,41 @@
+Building project BLE_Thermometer (LEAPRO2, GCC_ARM)
+Scan: .
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_BLE
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
++-----------------------+-------+-------+------+
+| Module                | .text | .data | .bss |
++-----------------------+-------+-------+------+
+| Fill                  |   189 |     7 |   43 |
+| Misc                  | 29048 |  2492 |  230 |
+| drivers               |   732 |     0 |    0 |
+| events                |    48 |     0 |    0 |
+| events/equeue         |  1250 |     0 |   61 |
+| features/FEATURE_BLE  | 16412 |     5 |  540 |
+| hal                   |   506 |     0 |   16 |
+| platform              |  1530 |     4 |  264 |
+| rtos                  |   102 |     4 |    4 |
+| rtos/rtx              |  6425 |    20 | 4278 |
+| targets/TARGET_NORDIC | 23759 |   140 | 2200 |
+| Subtotals             | 80001 |  2672 | 7636 |
++-----------------------+-------+-------+------+
+Allocated Heap: 40940 bytes
+Allocated Stack: 2048 bytes
+Total Static RAM memory (data + bss): 10308 bytes
+Total RAM memory (data + bss + heap + stack): 53296 bytes
+Total Flash memory (text + data + misc): 82673 bytes
+
+Image: ./BUILD/LEAPRO2/GCC_ARM/BLE_Thermometer.hex

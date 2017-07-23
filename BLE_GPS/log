@@ -1,0 +1,44 @@
+Building project BLE_GPS (LEAPRO2, GCC_ARM)
+Scan: .
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_BLE
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_STORAGE
+Scan: env
+Scan: mbed
+Compile [100.0%]: main.cpp
+Link: BLE_GPS
+Elf2Bin: BLE_GPS
++-----------------------+-------+-------+------+
+| Module                | .text | .data | .bss |
++-----------------------+-------+-------+------+
+| Fill                  |   204 |     7 |   43 |
+| Misc                  | 31299 |  2492 |  230 |
+| drivers               |  1396 |     0 |   32 |
+| events                |    48 |     0 |    0 |
+| events/equeue         |  1250 |     0 |   61 |
+| features/FEATURE_BLE  | 16412 |     5 |  540 |
+| hal                   |   506 |     0 |   16 |
+| platform              |  1585 |     4 |  264 |
+| rtos                  |   199 |     4 |    4 |
+| rtos/rtx              |  6425 |    20 | 4278 |
+| targets/TARGET_NORDIC | 25989 |   140 | 2328 |
+| Subtotals             | 85313 |  2672 | 7796 |
++-----------------------+-------+-------+------+
+Allocated Heap: 40780 bytes
+Allocated Stack: 2048 bytes
+Total Static RAM memory (data + bss): 10468 bytes
+Total RAM memory (data + bss + heap + stack): 53296 bytes
+Total Flash memory (text + data + misc): 87985 bytes
+
+Image: ./BUILD/LEAPRO2/GCC_ARM/BLE_GPS.hex

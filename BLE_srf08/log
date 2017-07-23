@@ -1,0 +1,303 @@
+Building project BLE_srf08 (LEAPRO2, GCC_ARM)
+Scan: .
+Scan: FEATURE_LWIP
+Scan: FEATURE_UVISOR
+Scan: FEATURE_COMMON_PAL
+Scan: FEATURE_BLE
+Scan: FEATURE_LOWPAN_ROUTER
+Scan: FEATURE_THREAD_END_DEVICE
+Scan: FEATURE_NANOSTACK_FULL
+Scan: FEATURE_THREAD_BORDER_ROUTER
+Scan: FEATURE_ETHERNET_HOST
+Scan: FEATURE_NANOSTACK
+Scan: FEATURE_LOWPAN_BORDER_ROUTER
+Scan: FEATURE_THREAD_ROUTER
+Scan: FEATURE_LOWPAN_HOST
+Scan: FEATURE_STORAGE
+Scan: mbed
+Scan: env
+Compile [  2.2%]: Ethernet.cpp
+Compile [  2.6%]: FileBase.cpp
+Compile [  2.9%]: main.cpp
+Compile [  3.3%]: FilePath.cpp
+Compile [  3.6%]: FlashIAP.cpp
+Compile [  4.0%]: FileSystemLike.cpp
+Compile [  4.4%]: I2CSlave.cpp
+Compile [  4.7%]: I2C.cpp
+Compile [  5.1%]: InterruptManager.cpp
+Compile [  5.5%]: InterruptIn.cpp
+Compile [  5.8%]: LocalFileSystem.cpp
+Compile [  6.2%]: RawSerial.cpp
+Compile [  6.6%]: SPISlave.cpp
+Compile [  6.9%]: SPI.cpp
+Compile [  7.3%]: Serial.cpp
+Compile [  7.7%]: SerialBase.cpp
+Compile [  8.0%]: Stream.cpp
+Compile [  8.4%]: Ticker.cpp
+Compile [  8.8%]: Timeout.cpp
+Compile [  9.1%]: Timer.cpp
+Compile [  9.5%]: TimerEvent.cpp
+Compile [  9.9%]: equeue.c
+Compile [ 10.2%]: EventQueue.cpp
+Compile [ 10.6%]: equeue_posix.c
+Compile [ 10.9%]: equeue_mbed.cpp
+Compile [ 11.3%]: BLE.cpp
+[Warning] toolchain.h@23,2: #warning toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3] [-Wcpp]
+Compile [ 11.7%]: BLEInstanceBase.cpp
+Compile [ 12.0%]: DiscoveredCharacteristic.cpp
+Compile [ 12.4%]: DFUService.cpp
+Compile [ 12.8%]: GapScanningParams.cpp
+Compile [ 13.1%]: UARTService.cpp
+Compile [ 13.5%]: URIBeaconConfigService.cpp
+Compile [ 13.9%]: btle_advertising.cpp
+Compile [ 14.2%]: btle.cpp
+Compile [ 14.6%]: btle_gap.cpp
+Compile [ 15.0%]: btle_security.cpp
+Compile [ 15.3%]: btle_discovery.cpp
+Compile [ 15.7%]: custom_helper.cpp
+Compile [ 16.1%]: nRF5xCharacteristicDescriptorDiscoverer.cpp
+Compile [ 16.4%]: btle_security_pm.cpp
+Compile [ 16.8%]: nRF5xDiscoveredCharacteristic.cpp
+Compile [ 17.2%]: nRF5xGattClient.cpp
+Compile [ 17.5%]: nRF5xGap.cpp
+Compile [ 17.9%]: nRF5xServiceDiscovery.cpp
+Compile [ 18.2%]: nRF5xGattServer.cpp
+Compile [ 18.6%]: Dir.cpp
+Compile [ 19.0%]: File.cpp
+Compile [ 19.3%]: nRF5xn.cpp
+Compile [ 19.7%]: FileSystem.cpp
+Compile [ 20.1%]: ChainingBlockDevice.cpp
+Compile [ 20.4%]: HeapBlockDevice.cpp
+Compile [ 20.8%]: ccsbcs.cpp
+Compile [ 21.2%]: SlicingBlockDevice.cpp
+Compile [ 21.5%]: FATFileSystem.cpp
+Compile [ 21.9%]: ff.cpp
+Compile [ 22.3%]: greentea_serial.cpp
+Compile [ 22.6%]: greentea_metrics.cpp
+[Warning] greentea_metrics.cpp@37,28: 'mutex' defined but not used [-Wunused-variable]
+Compile [ 23.0%]: greentea_test_env.cpp
+Compile [ 23.4%]: unity.c
+Compile [ 23.7%]: mbed-utest-shim.cpp
+Compile [ 24.1%]: unity_handler.cpp
+Compile [ 24.5%]: utest_case.cpp
+Compile [ 24.8%]: utest_default_handlers.cpp
+Compile [ 25.2%]: utest_greentea_handlers.cpp
+Compile [ 25.5%]: utest_harness.cpp
+Compile [ 25.9%]: utest_stack_trace.cpp
+Compile [ 26.3%]: utest_shim.cpp
+Compile [ 26.6%]: mbed_trng.c
+Compile [ 27.0%]: utest_types.cpp
+Compile [ 27.4%]: aesni.c
+Compile [ 27.7%]: arc4.c
+Compile [ 28.1%]: aes.c
+Compile [ 28.5%]: asn1parse.c
+Compile [ 28.8%]: base64.c
+Compile [ 29.2%]: asn1write.c
+Compile [ 29.6%]: blowfish.c
+Compile [ 29.9%]: camellia.c
+Compile [ 30.3%]: ccm.c
+Compile [ 30.7%]: certs.c
+Compile [ 31.0%]: cipher.c
+Compile [ 31.4%]: cipher_wrap.c
+Compile [ 31.8%]: cmac.c
+Compile [ 32.1%]: ctr_drbg.c
+Compile [ 32.5%]: debug.c
+Compile [ 32.8%]: bignum.c
+Compile [ 33.2%]: des.c
+Compile [ 33.6%]: dhm.c
+Compile [ 33.9%]: ecdh.c
+Compile [ 34.3%]: ecjpake.c
+Compile [ 34.7%]: ecdsa.c
+Compile [ 35.0%]: ecp_curves.c
+Compile [ 35.4%]: entropy.c
+Compile [ 35.8%]: entropy_poll.c
+Compile [ 36.1%]: error.c
+Compile [ 36.5%]: ecp.c
+Compile [ 36.9%]: havege.c
+Compile [ 37.2%]: gcm.c
+Compile [ 37.6%]: hmac_drbg.c
+Compile [ 38.0%]: md2.c
+Compile [ 38.3%]: md4.c
+Compile [ 38.7%]: md5.c
+Compile [ 39.1%]: md.c
+Compile [ 39.4%]: memory_buffer_alloc.c
+Compile [ 39.8%]: net_sockets.c
+Compile [ 40.1%]: md_wrap.c
+Compile [ 40.5%]: padlock.c
+Compile [ 40.9%]: pem.c
+Compile [ 41.2%]: oid.c
+Compile [ 41.6%]: pk.c
+Compile [ 42.0%]: pkcs11.c
+Compile [ 42.3%]: pkcs12.c
+Compile [ 42.7%]: pk_wrap.c
+Compile [ 43.1%]: pkcs5.c
+Compile [ 43.4%]: pkwrite.c
+Compile [ 43.8%]: platform.c
+Compile [ 44.2%]: pkparse.c
+Compile [ 44.5%]: ripemd160.c
+Compile [ 44.9%]: sha1.c
+Compile [ 45.3%]: sha256.c
+Compile [ 45.6%]: rsa.c
+Compile [ 46.0%]: ssl_cache.c
+Compile [ 46.4%]: ssl_ciphersuites.c
+Compile [ 46.7%]: ssl_cli.c
+Compile [ 47.1%]: ssl_cookie.c
+Compile [ 47.4%]: sha512.c
+Compile [ 47.8%]: ssl_srv.c
+Compile [ 48.2%]: ssl_ticket.c
+Compile [ 48.5%]: ssl_tls.c
+Compile [ 48.9%]: threading.c
+Compile [ 49.3%]: version.c
+Compile [ 49.6%]: timing.c
+Compile [ 50.0%]: version_features.c
+Compile [ 50.4%]: x509_create.c
+Compile [ 50.7%]: x509.c
+Compile [ 51.1%]: x509_crl.c
+Compile [ 51.5%]: x509_csr.c
+Compile [ 51.8%]: x509write_crt.c
+Compile [ 52.2%]: x509write_csr.c
+Compile [ 52.6%]: xtea.c
+Compile [ 52.9%]: NetworkInterface.cpp
+Compile [ 53.3%]: x509_crt.c
+Compile [ 53.6%]: NetworkStack.cpp
+Compile [ 54.0%]: Socket.cpp
+Compile [ 54.4%]: SocketAddress.cpp
+Compile [ 54.7%]: TCPServer.cpp
+Compile [ 55.1%]: TCPSocket.cpp
+Compile [ 55.5%]: WiFiAccessPoint.cpp
+Compile [ 55.8%]: UDPSocket.cpp
+Compile [ 56.2%]: mbed_gpio.c
+Compile [ 56.6%]: mbed_lp_ticker_api.c
+Compile [ 56.9%]: nsapi_dns.cpp
+Compile [ 57.3%]: mbed_pinmap_common.c
+Compile [ 57.7%]: mbed_ticker_api.c
+Compile [ 58.0%]: mbed_us_ticker_api.c
+Compile [ 58.4%]: mbed_alloc_wrappers.cpp
+Compile [ 58.8%]: mbed_application.c
+Compile [ 59.1%]: CallChain.cpp
+Compile [ 59.5%]: mbed_assert.c
+Compile [ 59.9%]: mbed_board.c
+Compile [ 60.2%]: mbed_critical.c
+Compile [ 60.6%]: mbed_error.c
+Compile [ 60.9%]: mbed_interface.c
+Compile [ 61.3%]: mbed_mem_trace.c
+Compile [ 61.7%]: mbed_rtc_time.cpp
+Compile [ 62.0%]: mbed_semihost_api.c
+Compile [ 62.4%]: mbed_stats.c
+Compile [ 62.8%]: mbed_wait_api_no_rtos.c
+Compile [ 63.1%]: mbed_retarget.cpp
+Compile [ 63.5%]: Mutex.cpp
+Compile [ 63.9%]: mbed_wait_api_rtos.cpp
+Compile [ 64.2%]: Semaphore.cpp
+Compile [ 64.6%]: RtosTimer.cpp
+Compile [ 65.0%]: rtos_idle.c
+Compile [ 65.3%]: HAL_CM.c
+Compile [ 65.7%]: RTX_Conf_CM.c
+Compile [ 66.1%]: HAL_CM4.S
+Compile [ 66.4%]: SVC_Table.S
+Compile [ 66.8%]: Thread.cpp
+Compile [ 67.2%]: rt_Event.c
+Compile [ 67.5%]: rt_List.c
+Compile [ 67.9%]: rt_Mailbox.c
+Compile [ 68.2%]: rt_CMSIS.c
+Compile [ 68.6%]: rt_MemBox.c
+Compile [ 69.0%]: rt_Memory.c
+Compile [ 69.3%]: rt_OsEventObserver.c
+Compile [ 69.7%]: rt_Mutex.c
+Compile [ 70.1%]: rt_Robin.c
+Compile [ 70.4%]: rt_Semaphore.c
+Compile [ 70.8%]: rt_System.c
+Compile [ 71.2%]: rt_Time.c
+Compile [ 71.5%]: rt_Task.c
+Compile [ 71.9%]: rt_Timer.c
+Compile [ 72.3%]: startup_NRF52832.S
+Compile [ 72.6%]: cmsis_nvic.c
+Compile [ 73.0%]: analogin_api.c
+Compile [ 73.4%]: system_nrf52.c
+Compile [ 73.7%]: pwmout_api.c
+Compile [ 74.1%]: nrf_drv_pwm.c
+Compile [ 74.5%]: nrf_drv_saadc.c
+Compile [ 74.8%]: gpio_api.c
+Compile [ 75.2%]: lp_ticker.c
+Compile [ 75.5%]: i2c_api.c
+Compile [ 75.9%]: nordic_critical.c
+Compile [ 76.3%]: pinmap.c
+Compile [ 76.6%]: port_api.c
+Compile [ 77.0%]: reloc_vector_table.c
+Compile [ 77.4%]: rtc_api.c
+Compile [ 77.7%]: ble_advertising.c
+Compile [ 78.1%]: ble_debug_assert_handler.c
+Compile [ 78.5%]: ble_db_discovery.c
+Compile [ 78.8%]: ble_racp.c
+Compile [ 79.2%]: ble_dtm.c
+Compile [ 79.6%]: ble_radio_notification.c
+Compile [ 79.9%]: ble_dfu.c
+Compile [ 80.3%]: ble_advdata.c
+Compile [ 80.7%]: ble_conn_state.c
+Compile [ 81.0%]: ble_srv_common.c
+Compile [ 81.4%]: gatt_cache_manager.c
+Compile [ 81.8%]: gattc_cache_manager.c
+Compile [ 82.1%]: device_manager_peripheral.c
+Compile [ 82.5%]: gatts_cache_manager.c
+Compile [ 82.8%]: peer_data.c
+Compile [ 83.2%]: id_manager.c
+Compile [ 83.6%]: peer_data_storage.c
+Compile [ 83.9%]: peer_database.c
+Compile [ 84.3%]: peer_id.c
+Compile [ 84.7%]: pm_buffer.c
+Compile [ 85.0%]: pm_mutex.c
+Compile [ 85.4%]: peer_manager.c
+Compile [ 85.8%]: security_dispatcher.c
+Compile [ 86.1%]: security_manager.c
+Compile [ 86.5%]: ble_flash.c
+Compile [ 86.9%]: nrf_drv_clock.c
+Compile [ 87.2%]: nrf_drv_common.c
+Compile [ 87.6%]: nrf_delay.c
+Compile [ 88.0%]: nrf_adc.c
+Compile [ 88.3%]: nrf_ecb.c
+Compile [ 88.7%]: nrf_drv_gpiote.c
+Compile [ 89.1%]: nrf_nvmc.c
+Compile [ 89.4%]: nrf_saadc.c
+Compile [ 89.8%]: nrf_drv_ppi.c
+Compile [ 90.1%]: nrf_drv_spi.c
+Compile [ 90.5%]: pstorage.c
+Compile [ 90.9%]: nrf_drv_spis.c
+Compile [ 91.2%]: bootloader_util.c
+Compile [ 91.6%]: nrf_drv_timer.c
+Compile [ 92.0%]: dfu_init_template.c
+Compile [ 92.3%]: dfu_app_handler.c
+Compile [ 92.7%]: crc16.c
+Compile [ 93.1%]: fstorage.c
+Compile [ 93.4%]: fstorage_nosd.c
+Compile [ 93.8%]: hci_mem_pool.c
+Compile [ 94.2%]: fds.c
+Compile [ 94.5%]: app_scheduler.c
+Compile [ 94.9%]: app_pwm.c
+Compile [ 95.3%]: app_trace.c
+Compile [ 95.6%]: app_error.c
+Compile [ 96.0%]: app_error_weak.c
+Compile [ 96.4%]: nrf_assert.c
+Compile [ 96.7%]: app_util_platform.c
+Compile [ 97.1%]: nrf_log.c
+Compile [ 97.4%]: sdk_mapped_flags.c
+Compile [ 97.8%]: softdevice_handler_appsh.c
+Compile [ 98.2%]: softdevice_handler.c
+Compile [ 98.5%]: sleep.c
+Compile [ 98.9%]: serial_api.c
+Compile [ 99.3%]: us_ticker.c
+Compile [ 99.6%]: spi_api.c
+Compile [100.0%]: test_env.cpp
+Link: BLE_srf08
+./BUILD/LEAPRO2/GCC_ARM/./main.o: In function `main':
+main.cpp:(.text.startup.main+0x10): undefined reference to `SRF08::read()'
+./BUILD/LEAPRO2/GCC_ARM/./main.o: In function `_GLOBAL__sub_I_led':
+main.cpp:(.text.startup._GLOBAL__sub_I_led+0x18): undefined reference to `SRF08::SRF08(PinName, PinName, int)'
+main.cpp:(.text.startup._GLOBAL__sub_I_led+0x38): undefined reference to `SRF08::~SRF08()'
+collect2: error: ld returned 1 exit status
+[ERROR] ./BUILD/LEAPRO2/GCC_ARM/./main.o: In function `main':
+main.cpp:(.text.startup.main+0x10): undefined reference to `SRF08::read()'
+./BUILD/LEAPRO2/GCC_ARM/./main.o: In function `_GLOBAL__sub_I_led':
+main.cpp:(.text.startup._GLOBAL__sub_I_led+0x18): undefined reference to `SRF08::SRF08(PinName, PinName, int)'
+main.cpp:(.text.startup._GLOBAL__sub_I_led+0x38): undefined reference to `SRF08::~SRF08()'
+collect2: error: ld returned 1 exit status
+
